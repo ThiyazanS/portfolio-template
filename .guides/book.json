@@ -1,0 +1,17 @@
+{
+ "name": "portfolio-templateMOCK",
+ "children": [
+  {
+   "title": "Page 1",
+   "id": "cb1aec68-0f9f-7c09-c9a6-33a6c556226f",
+   "pageId": "cb1aec68-0f9f-7c09-c9a6-33a6c556226f",
+   "type": "page"
+  },
+  {
+   "title": "Page 2",
+   "id": "cef11a80-0bea-ebcd-b9c9-dbf37406c7bf",
+   "pageId": "cef11a80-0bea-ebcd-b9c9-dbf37406c7bf",
+   "type": "page"
+  }
+ ]
+}

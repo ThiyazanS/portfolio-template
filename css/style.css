@@ -1,20 +1,21 @@
 body,
 html {
   height: 100%;
-  color: #242423;
+  color: #161616;
+  background-color: skyblue;
   line-height: 1.8;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
 }
 
 h1 {
   font-size: 36px;
-  color: white;
+  color: #f442b0;
   font-weight: 800;
 }
 
 h2 {
   font-size: 30px;
-  color: white;
+  color: #f442b0;
 }
 
 h3 {
@@ -34,7 +35,7 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "Coda Caption", Arial, sans-serif;
   margin: 10px 0
 }
 
@@ -43,13 +44,26 @@ p {
 }
 
 .bar-color{
-  background-color: #BBBBBC;
-  color: white;
+  background-color: skyblue;
+  color: #f442b0;
+}
+
+.bar-color2{
+  background-color: #f442b0;
+  color: skyblue;
+}
+
+.color2{
+  color: #f442b0;
+}
+
+.color3{
+  color: skyblue;
 }
 
 #myNavbar {
   font-size: 20px;
-  color: #242423;
+  color: skyblue;
 }
 
 #myNavbar a {
@@ -58,8 +72,8 @@ p {
 
 #myNavbar a:hover {
   text-decoration: none;
-  background-color: #BBBBBC;
-  color: white;
+  background-color: skyblue;
+  color: #f442b0;
 }
 
 .nav-change {
@@ -68,13 +82,13 @@ p {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('../img/notebook.jpg');
+  background-image: url('../img/bokeh.jpg');
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url('../img/code.jpg');
+  background-image: url('../img/space.jpg');
   min-height: 400px;
 }
 
@@ -100,7 +114,7 @@ p {
 }
 
 .projectContainer {
-  position: relative;
+  position: center;
   width: 50%;
 }
 
@@ -175,19 +189,19 @@ p {
 
 /*COLORING*/
 .w3-opacity, .w3-hover-opacity:hover {
-  opacity: 0.60
+  opacity: .60;
 }
 
 .w3-opacity-off, .w3-hover-opacity-off:hover {
-  opacity: 1
+  opacity: 1;
 }
 
 .w3-opacity-max {
-  opacity: 0.25
+  opacity: 0.25;
 }
 
 .w3-opacity-min {
-  opacity: 0.75
+  opacity: 0.75;
 }
 
 .w3-greyscale-max, .w3-grayscale-max, .w3-hover-greyscale:hover, .w3-hover-grayscale:hover {
